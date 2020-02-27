@@ -19,7 +19,7 @@ RSpec.describe Queue, "" do
       expect(q.size).to eq 1
     end
 
-    it "enqueues an element" do
+    it "dequeues an element" do
       q = Queue.new
       q.enqueue(3)
       q.enqueue(5)
